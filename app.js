@@ -11,9 +11,8 @@ const app = express();
 //passport config
 require('./config/passport')(passport);
 
-//db config
-const db = require('./config/keys').MongoURI; //for MongoDB Atlas
-//const db = 'mongodb://127.0.0.1:27017/court_case_management' //for local MongoDB
+
+const db = 'mongodb+srv://xsaberx002:6nspqHdAAI5J23pI@cluster0.gtnj3f2.mongodb.net/project?retryWrites=true&w=majority' //for local MongoDB
 
 //db connection
 mongoose.connect
