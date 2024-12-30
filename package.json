@@ -14,9 +14,9 @@
   "author": "ANANT MISHRA",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HarshKapadia2/court_case_management_web_app/issues"
+    "url": "https://github.com/Anant-404/PROJECT"
   },
-  "homepage": "https://github.com/HarshKapadia2/court_case_management_web_app#readme",
+  "homepage": "https://github.com/Anant-404/PROJECT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",

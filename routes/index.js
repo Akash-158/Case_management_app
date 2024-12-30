@@ -13,7 +13,7 @@ const User = require('../models/User')
 //home page
 router.get
 (
-    '/',
+    '/', 
     notIfLoggedIn,
     (req, res) =>
     {

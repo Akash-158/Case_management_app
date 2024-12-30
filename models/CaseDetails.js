@@ -6,7 +6,7 @@ const CaseDetailsSchema = new mongoose.Schema
         client_id: {
             type: Object(),
             required: true
-        },
+        }, 
 
 
         isResolved: {

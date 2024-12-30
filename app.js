@@ -8,13 +8,13 @@ const passport = require('passport');
 const express = require('express');
 const app = express();
 
-//passport config
+
 require('./config/passport')(passport);
 
 
-const db = 'mongodb+srv://xsaberx002:6nspqHdAAI5J23pI@cluster0.gtnj3f2.mongodb.net/project?retryWrites=true&w=majority' //for local MongoDB
+const db = 'mongodb+srv://aryanakash3307:I0NAtObixTcEvT95@cluster0.p9mav.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0' //for local MongoDB
 
-//db connection
+
 mongoose.connect
 (
     db, 
